@@ -1,0 +1,25 @@
+{%load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Django-Clock</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+<body>
+<h2 class="header_title">Clock on WebPage</h2>
+<div class="divider">
+<div class="clock">
+	<div class="hour">
+		<div class="hr" id="hr"></div>
+	</div>
+	<div class="min">
+		<div class="mn" id="mn"></div>
+	</div>
+	<div class="sec">
+		<div class="sc" id="sc"></div>
+	</div>
+</div>
+</div>
+<script type="text/javascript" src="{% static 'script.js' %}">
+</script>
+</body>
+</html>
